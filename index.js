@@ -12,3 +12,4 @@ app.get('/', (req, res) => res.send('Hello, World, Uhaha~~'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 // mongodb+srv://wjlee:<password>@bp01.crufi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+// mongodb+srv://wjlee:<password>@bp01.crufi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
