@@ -5,7 +5,7 @@ const port = 5000;
 const config = require('./config/key');
 const { User } = require('./models/User');
 
-////app.use(bodyParser.urlencoded({extended: true}));
+//app.use(bodyParser.urlencoded({extended: true}));
 
 //app.use(bodyParser.json());
 
@@ -15,7 +15,7 @@ mongoose.connect(config.mongoURI)
 .then(() => console.log(`Mongo DB Connected...`))
 .catch(err => console.log(err)); 
 
-app.get('/', (req, res) => res.send('Hello, World, Uhaha~~'));
+app.get('/', (req, res) => res.send('Hello, World, Uhaha~~ 안녕하세요'));
 
 app.post('/register', (req, res) => {
     const user = new User(req.body);
